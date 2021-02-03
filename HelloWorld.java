@@ -12,7 +12,7 @@ public final class HelloWorld {
     /**
     * This method prints out Hello, World! to the console
     */
-    public static void main(String args[]) {
+    public final static void main(String args[]) {
      System.out.println("Hello, World!");
     }
 }
