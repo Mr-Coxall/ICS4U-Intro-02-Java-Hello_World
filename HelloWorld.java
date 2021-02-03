@@ -9,10 +9,14 @@ package ca.mths.java.hello_world;
 * @since   2020-01-01
 */
 final class HelloWorld {
-    /**
-    * This method prints out Hello, World! to the console
-    */
-    public final static void main(String args[]) {
-     System.out.println("Hello, World!");
+
+    private HelloWorld() {
+        // Prevent instantiation
+        // Optional: throw an exception e.g. AssertionError
+        // if this ever *is* called
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
     }
 }
