@@ -8,7 +8,7 @@ package ca.mths.java.hello_world;
 * @version 1.0
 * @since   2020-01-01
 */
-public final class HelloWorld {
+final class HelloWorld {
     /**
     * This method prints out Hello, World! to the console
     */
