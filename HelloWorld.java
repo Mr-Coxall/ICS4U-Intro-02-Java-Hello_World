@@ -10,15 +10,15 @@ package ca.mths.java.hello_world;
 */
 
 final class HelloWorld {
-   /**
-    * This method prints out "Hello, World!"
-    */
     private HelloWorld() {
         // Prevent instantiation
         // Optional: throw an exception e.g. AssertionError
         // if this ever *is* called
     }
 
+    /**
+    * This method prints out "Hello, World!"
+    */
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
