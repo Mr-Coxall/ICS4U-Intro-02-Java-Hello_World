@@ -1,5 +1,4 @@
 package ca.mths.java.hello_world;
-
 /**
 * The Hello World! program implements an application that
 * simply displays "Hello World!" to the standard output.
@@ -8,7 +7,6 @@ package ca.mths.java.hello_world;
 * @version 1.0
 * @since   2020-01-01
 */
-
 final class HelloWorld {
     private HelloWorld() {
         // Prevent instantiation
