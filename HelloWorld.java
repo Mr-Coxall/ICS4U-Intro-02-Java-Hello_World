@@ -18,7 +18,7 @@ final class HelloWorld {
     /**
     * This method prints out "Hello, World!".
     */
-    public final static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
 }
