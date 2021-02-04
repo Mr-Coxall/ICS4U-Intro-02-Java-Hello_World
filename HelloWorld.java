@@ -8,9 +8,11 @@ package ca.mths.java.hello_world;
 * @version 1.0
 * @since   2020-01-01
 */
-//final class HelloWorld {
-public class HelloWorld {
 
+final class HelloWorld {
+   /**
+    * This method prints out "Hello, World!"
+    */
     private HelloWorld() {
         // Prevent instantiation
         // Optional: throw an exception e.g. AssertionError
