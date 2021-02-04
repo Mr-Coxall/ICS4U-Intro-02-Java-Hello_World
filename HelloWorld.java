@@ -15,12 +15,10 @@ final class HelloWorld {
         // Optional: throw an exception e.g. AssertionError
         // if this ever *is* called
     }
-
     /**
-    * This method prints out "Hello, World!"
+    * This method prints out "Hello, World!".
     */
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
-    
 }
